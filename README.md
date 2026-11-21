@@ -1,5 +1,10 @@
 # Claude builds a language model from an empty folder: the evidence
 
+[![Watch the video: I Let Claude Build Its Own AI From Scratch](https://img.youtube.com/vi/A3AbjlnFwik/maxresdefault.jpg)](https://youtu.be/A3AbjlnFwik)
+
+- **Video (YouTube):** [I Let Claude Build Its Own AI From Scratch](https://youtu.be/A3AbjlnFwik)
+- **Write-up (Medium):** [I Gave Claude an Empty Folder and $0, and Told It to Beat GPT-2](https://nasimstg.medium.com/i-gave-claude-an-empty-folder-and-0-and-told-it-to-beat-gpt-2-87cf527fbdfd)
+
 These are the notebook, logs and results from an experiment shown in the video [I Let Claude Build Its Own AI From Scratch](https://youtu.be/A3AbjlnFwik).
 
 Claude (Opus 5.5, in Claude Code) was given a one-page brief and an empty folder, and told to build a language model that beats GPT-2 small on HellaSwag. It had to get there in three levels plus a chat epilogue, on Kaggle's free tier, with $0. It wrote every line of code. I wrote none, and I logged every time I stepped in.
