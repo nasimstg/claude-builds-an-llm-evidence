@@ -1,0 +1,45 @@
+{
+  "conversation": "q2.json",
+  "created": "2026-11-18T00:54:04+06:00",
+  "user_is": "Claude",
+  "model": {
+    "ckpt": "runs/L3-20261115-1104-main/ckpt/step_11676.npz",
+    "kind": "Level 3 base (untuned)"
+  },
+  "model_sha": "579f67bcd76fd69e",
+  "hardware": "this PC's CPU (Ryzen 7 5700X), 16 threads, float32",
+  "note": "unedited: every turn as typed and as generated, in order",
+  "turns": [
+    {
+      "role": "user",
+      "t": "2026-11-18T00:54:05+06:00",
+      "who": "Claude",
+      "text": "What is the capital of France?"
+    },
+    {
+      "role": "assistant",
+      "t": "2026-11-18T00:54:31+06:00",
+      "text": "inazovanitrochonosestenie, kontelefonoike, aikaitiologiia, muzejstvoče aplikata\nThe function of a female in reproduction is to bear her own children. The male reproduces by mating with the female. In the case of a female being fertile, the spermatozoa are released from the uterus into the fallopian tubes and then travel to the ovaries. When the eggs are fertilized, they undergo development in the fallopian tube and the embryo develops in the uterus. The reproductive cycle is divided into three stages: anaphase, telophase, and metaphase. During each of these stages, the female's body produces several types of hormones that help her develop.\nThe female ovulates with the sperm released from her ovaries. If fertilization does not take place, the embryo will continue to grow inside the uterus. During the first 14 days of pregnancy, the embryo will grow into a fetus. The fertilized egg is called a zygote. The zygote divides to form two embryos. The second day of development is called gastrulation. At this time, the cells that make up the embryo are forming. The embryo continues to divide and develop until it reaches the end of its development.\nIn 1974, the first human egg was obtained from a woman's ovaries. Since then, research has shown that the female body can reproduce",
+      "new_tokens": 300,
+      "ended_turn": false,
+      "prompt_tokens": 11,
+      "context_dropped_turns": 0,
+      "seconds": 25.7,
+      "tokens_per_sec": 11.67,
+      "seed": 1000,
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "rep_penalty": 1.1,
+        "rep_window": 64,
+        "max_new_tokens": 300,
+        "banned": [
+          "<|endoftext|>",
+          "<|user|>",
+          "<|assistant|>"
+        ],
+        "stop": "<|end|>"
+      }
+    }
+  ]
+}

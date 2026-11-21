@@ -1,0 +1,31 @@
+{
+  "ckpt": "runs\\L3-20261115-1104-main\\ckpt\\step_11676.npz",
+  "logprob_diff": {
+    "tokens": 78,
+    "max_abs": 4.76837158203125e-05,
+    "mean_abs": 1.252710626431508e-05,
+    "nll_jax": 2.1868953704833984,
+    "nll_torch": 2.186882972717285,
+    "argmax_agree": 1.0,
+    "chat_token_prob_max": 0.002116927644237876
+  },
+  "activation_max_abs_fp32": {
+    "residual": 4756.727,
+    "qkv": 61.158,
+    "mlp_gate": 72.821,
+    "mlp_up": 75.734,
+    "mlp_prod": 5515.044,
+    "attn_out": 175.238,
+    "logits": 21.053
+  },
+  "hellaswag_first_items": {
+    "n": 300,
+    "acc_norm_port_fp32": 0.476667,
+    "acc_norm_tpu_bf16_same_items": 0.476667,
+    "pred_norm_agreement": 0.9967,
+    "loglik_diff_mean": 0.0002,
+    "loglik_diff_abs_mean": 0.0558,
+    "loglik_diff_abs_max": 0.3341,
+    "seconds": 97.8
+  }
+}

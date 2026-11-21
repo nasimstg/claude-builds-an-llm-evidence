@@ -1,0 +1,13 @@
+[Event "EP04 Level 2 match vs Stockfish skill 0"]
+[Site "EP04 lab PC"]
+[Date "2026.11.08"]
+[Round "18"]
+[White "Stockfish 19 (skill 0, 0.1 s/move)"]
+[Black "L2-20261108-1951-cont step 9918"]
+[Result "1-0"]
+[Termination "checkmate"]
+[StockfishSkill "0"]
+[IllegalMoves "18..., 41..., 60..., 62..."]
+
+1. e4 e5 2. Nf3 Nc6 3. Bb5 a6 4. Be2 Nf6 5. d3 Bc5 6. Nc3 d6 7. a3 O-O 8. O-O h6 9. Na4 Ba7 10. c4 Nd4 11. Nc3 c6 12. Kh1 Bg4 13. Nxd4 Bxd4 14. Bxg4 Nxg4 15. Qxg4 Qf6 16. h4 Qg6 17. f3 f5 18. Qxg6 f4 { illegal first attempt(s): 1-0, 1-0, 1-0 } 19. Bd2 Rf6 20. Qg4 Raf8 21. b3 Rg6 22. Qd7 Rf7 23. Qc8+ Kh7 24. Ne2 Bxa1 25. Qh3 Bb2 26. Kg1 Bxa3 27. g3 Bc5+ 28. Kh1 Be3 29. Bc3 b5 30. b4 bxc4 31. dxc4 c5 32. g4 cxb4 33. Bb2 a5 34. g5 a4 35. Ra1 Ra7 36. c5 dxc5 37. Qc8 a3 38. Bxa3 bxa3 39. Kh2 a2 40. Qg4 c4 41. Qc8 Rf7 { illegal first attempt(s): a1=Q } 42. Rxa2 hxg5 43. Qg4 gxh4 44. Qh5+ Rh6 45. Qxf7 c3 46. Nxc3 Bd4 47. Nb1 h3 48. Qc4 Rf6 49. Kh1 Rg6 50. Qf1 Rg3 51. Na3 Kh6 52. Nc2 Kg5 53. Na1 Kh4 54. Nb3 g5 55. Ra4 g4 56. Nxd4 exd4 57. Qe1 d3 58. e5 d2 59. Qd1 h2 60. Qxd2 Rh3 { illegal first attempt(s): 1-0, f1=Q+ } 61. Qa5 Kg3 62. Qd2 gxf3 { illegal first attempt(s): 1-0, f1=Q+ } 63. e6 f2 64. Qxf4# 1-0
+

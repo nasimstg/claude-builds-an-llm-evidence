@@ -1,0 +1,9 @@
+{
+  "run_id": "L1-20261107-2111-ab-s2-baseline",
+  "steps": 3051,
+  "tokens_seen": 99975168,
+  "wall_s": 2011.4,
+  "accel_hours": 0.5635,
+  "usd_spent": 0.0,
+  "ended": "2026-11-07T15:45:58+00:00"
+}

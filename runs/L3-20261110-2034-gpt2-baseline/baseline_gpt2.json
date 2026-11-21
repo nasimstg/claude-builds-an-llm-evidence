@@ -1,0 +1,31 @@
+{
+  "model": "GPT-2 124M (OpenAI official weights, openai-community/gpt2 model.safetensors)",
+  "scorer_version": "hs-v1",
+  "scorer_sha": "7ebb7b8f4e53725b",
+  "gpt2_ref_sha": "dd3bb38294feadd6",
+  "data": "hellaswag_val.jsonl",
+  "data_sha": "58efa63005494025",
+  "weights_sha": "248dfc3911869ec4",
+  "prefix_eot": false,
+  "normalisation": "sum log p(ending tokens) / len(ending characters)",
+  "seconds": 1879.4,
+  "hardware": "CPU, 16 threads, fp32",
+  "finished": "2026-11-10T21:05:11+06:00",
+  "n_items": 10042,
+  "hellaswag_acc_norm": 0.311392,
+  "hellaswag_acc_norm_se": 0.004621,
+  "hellaswag_acc": 0.289185,
+  "hellaswag_acc_se": 0.004524,
+  "hellaswag_acc_tokennorm": 0.309301,
+  "hellaswag_margin_mean": -0.073361,
+  "by_split_type": {
+    "indomain": {
+      "n": 5001,
+      "acc_norm": 0.307538
+    },
+    "zeroshot": {
+      "n": 5041,
+      "acc_norm": 0.315215
+    }
+  }
+}

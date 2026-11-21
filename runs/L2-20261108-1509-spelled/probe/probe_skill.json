@@ -1,0 +1,150 @@
+{
+  "ckpt": "runs/L2-20261108-1509-spelled/ckpt/step_10681.pt",
+  "target": "mean rating of the two players",
+  "feature": "mean hidden state over plies 11-40",
+  "games": {
+    "train": 3000,
+    "test": 1000,
+    "source": "test_games.jsonl from index 5000, >= 40 plies"
+  },
+  "test_rating_sd": 153.6,
+  "baseline_mean_guess_mae": 121.7,
+  "layers": {
+    "trained": {
+      "0": {
+        "test_mae": 119.1,
+        "test_corr": 0.2018,
+        "lambda": 10000.0
+      },
+      "1": {
+        "test_mae": 118.3,
+        "test_corr": 0.2273,
+        "lambda": 1000.0
+      },
+      "2": {
+        "test_mae": 116.7,
+        "test_corr": 0.275,
+        "lambda": 1000.0
+      },
+      "3": {
+        "test_mae": 116.4,
+        "test_corr": 0.2883,
+        "lambda": 1000.0
+      },
+      "4": {
+        "test_mae": 116.7,
+        "test_corr": 0.3056,
+        "lambda": 1000.0
+      },
+      "5": {
+        "test_mae": 116.0,
+        "test_corr": 0.3204,
+        "lambda": 1000.0
+      },
+      "6": {
+        "test_mae": 114.8,
+        "test_corr": 0.3413,
+        "lambda": 1000.0
+      },
+      "7": {
+        "test_mae": 114.9,
+        "test_corr": 0.3304,
+        "lambda": 1000.0
+      },
+      "8": {
+        "test_mae": 113.8,
+        "test_corr": 0.3484,
+        "lambda": 1000.0
+      },
+      "9": {
+        "test_mae": 116.1,
+        "test_corr": 0.306,
+        "lambda": 10000.0
+      },
+      "10": {
+        "test_mae": 116.0,
+        "test_corr": 0.3096,
+        "lambda": 10000.0
+      },
+      "11": {
+        "test_mae": 114.5,
+        "test_corr": 0.3499,
+        "lambda": 10000.0
+      },
+      "12": {
+        "test_mae": 114.6,
+        "test_corr": 0.3465,
+        "lambda": 10000.0
+      }
+    },
+    "untrained": {
+      "0": {
+        "test_mae": 120.4,
+        "test_corr": 0.1379,
+        "lambda": 10000.0
+      },
+      "1": {
+        "test_mae": 118.5,
+        "test_corr": 0.2237,
+        "lambda": 10000.0
+      },
+      "2": {
+        "test_mae": 117.3,
+        "test_corr": 0.2643,
+        "lambda": 10000.0
+      },
+      "3": {
+        "test_mae": 116.9,
+        "test_corr": 0.2747,
+        "lambda": 10000.0
+      },
+      "4": {
+        "test_mae": 116.8,
+        "test_corr": 0.2775,
+        "lambda": 10000.0
+      },
+      "5": {
+        "test_mae": 116.9,
+        "test_corr": 0.2769,
+        "lambda": 10000.0
+      },
+      "6": {
+        "test_mae": 116.0,
+        "test_corr": 0.2843,
+        "lambda": 1000.0
+      },
+      "7": {
+        "test_mae": 116.1,
+        "test_corr": 0.2855,
+        "lambda": 1000.0
+      },
+      "8": {
+        "test_mae": 116.1,
+        "test_corr": 0.2828,
+        "lambda": 1000.0
+      },
+      "9": {
+        "test_mae": 116.3,
+        "test_corr": 0.2815,
+        "lambda": 1000.0
+      },
+      "10": {
+        "test_mae": 116.3,
+        "test_corr": 0.2821,
+        "lambda": 1000.0
+      },
+      "11": {
+        "test_mae": 116.4,
+        "test_corr": 0.2773,
+        "lambda": 1000.0
+      },
+      "12": {
+        "test_mae": 116.7,
+        "test_corr": 0.2728,
+        "lambda": 1000.0
+      }
+    }
+  },
+  "run_id": "L2-20261108-1509-spelled",
+  "step": 10681
+}

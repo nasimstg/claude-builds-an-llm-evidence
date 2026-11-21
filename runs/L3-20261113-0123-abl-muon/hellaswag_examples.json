@@ -1,0 +1,187 @@
+[
+  {
+    "ind": 24,
+    "activity_label": "Roof shingle removal",
+    "query": "Roof shingle removal: A man is sitting on a roof. He",
+    "label": 3,
+    "pred_norm": 3,
+    "endings": [
+      {
+        "text": "is using wrap to wrap a pair of skis.",
+        "loglik": -44.20584,
+        "n_chars": 37,
+        "score_per_char": -1.19475,
+        "correct": false
+      },
+      {
+        "text": "is ripping level tiles off.",
+        "loglik": -36.48914,
+        "n_chars": 27,
+        "score_per_char": -1.35145,
+        "correct": false
+      },
+      {
+        "text": "is holding a rubik's cube.",
+        "loglik": -48.59071,
+        "n_chars": 26,
+        "score_per_char": -1.86887,
+        "correct": false
+      },
+      {
+        "text": "starts pulling up roofing on a roof.",
+        "loglik": -30.97106,
+        "n_chars": 36,
+        "score_per_char": -0.86031,
+        "correct": true
+      }
+    ]
+  },
+  {
+    "ind": 14423,
+    "activity_label": "Carving jack-o-lanterns",
+    "query": "Carving jack-o-lanterns: We see a black opening logo. A man etches a pumpkin with a knife like tool. The man",
+    "label": 1,
+    "pred_norm": 3,
+    "endings": [
+      {
+        "text": "peels the pumpkins one by one.",
+        "loglik": -25.11642,
+        "n_chars": 30,
+        "score_per_char": -0.83721,
+        "correct": false
+      },
+      {
+        "text": "then carves a logo into the pumpkin.",
+        "loglik": -29.80195,
+        "n_chars": 36,
+        "score_per_char": -0.82783,
+        "correct": true
+      },
+      {
+        "text": "cuts it with a tool, then cleans the backing up.",
+        "loglik": -45.08196,
+        "n_chars": 48,
+        "score_per_char": -0.93921,
+        "correct": false
+      },
+      {
+        "text": "wraps the pumpkin in wrapping paper.",
+        "loglik": -23.02307,
+        "n_chars": 36,
+        "score_per_char": -0.63953,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "ind": 38411,
+    "activity_label": "Pole vault",
+    "query": "Pole vault: The man catapults into the air, releases the pole and goes over an elevated line measure bar, touching the bar with his body before landing on the landing cushion underneath the bar. The man",
+    "label": 0,
+    "pred_norm": 3,
+    "endings": [
+      {
+        "text": "falls to the cushion with a look of disappointment, stands up, with the appearance of dejection, but smiling at the same time, while walking away from the cushion and picking the pole vault back up.",
+        "loglik": -179.06499,
+        "n_chars": 198,
+        "score_per_char": -0.90437,
+        "correct": true
+      },
+      {
+        "text": "throws his body into a howcast pose.",
+        "loglik": -56.55318,
+        "n_chars": 36,
+        "score_per_char": -1.57092,
+        "correct": false
+      },
+      {
+        "text": "dismounts from the diving rope but his legs have hung off the board and is swaying out in the air a bit.",
+        "loglik": -108.69914,
+        "n_chars": 104,
+        "score_per_char": -1.04518,
+        "correct": false
+      },
+      {
+        "text": "recovers from his landing and walks to the edge of a platform before bungee jumping.",
+        "loglik": -71.52748,
+        "n_chars": 84,
+        "score_per_char": -0.85152,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "ind": 13249,
+    "activity_label": "Personal Care and Style",
+    "query": "Personal Care and Style: How to buy a wedding band for men. Find a ring suitable for his lifestyle. Your fianc\u00e9 is going to wear this ring every day, so choose one that will mesh with his daily routine. A guy who works a lot with his hands, for example, would appreciate a slim ring with round edges so he can easily take it on and off.",
+    "label": 1,
+    "pred_norm": 3,
+    "endings": [
+      {
+        "text": " Check the band's design to see what kind of engraving is common. A good ring will have: heart attached, flowers (or gems), bow symbols or letters, etc.",
+        "loglik": -166.41966,
+        "n_chars": 152,
+        "score_per_char": -1.09487,
+        "correct": false
+      },
+      {
+        "text": " Men with active lifestyles might prefer a platinum ring, which is especially heavy-duty and not easily scratched. \" comfort fit \" wedding rings are especially recommended for men because they are easily slipped on over larger knuckles.",
+        "loglik": -210.90654,
+        "n_chars": 236,
+        "score_per_char": -0.89367,
+        "correct": true
+      },
+      {
+        "text": " You can buy rings in black, silver, or pink. Remember that black rings are a lot more expensive than pink ones; you can also choose a ring that's closer to pink, as your fianc\u00e9 would appreciate it more if it were pink.",
+        "loglik": -151.75603,
+        "n_chars": 219,
+        "score_per_char": -0.69295,
+        "correct": false
+      },
+      {
+        "text": "A girl who works a lot with her hands, for example, would definitely get a diamond engagement ring with round edges when she gets married.. Consider the person's other interests.",
+        "loglik": -106.1054,
+        "n_chars": 178,
+        "score_per_char": -0.5961,
+        "correct": false
+      }
+    ]
+  },
+  {
+    "ind": 42581,
+    "activity_label": "Personal Care and Style",
+    "query": "Personal Care and Style: How to get rid of chapped lips (middle school ). Keep a good, nourishing lip balm with you at all times. Keep one in your pencil pouch at school or in your pockets. Also have one at home because your lips can feel dry at any given moment.",
+    "label": 2,
+    "pred_norm": 3,
+    "endings": [
+      {
+        "text": " Don't overuse some petroleum jelly or lip balm just because it looks good on you! It irritates your lips and makes them look red, inflamed, and flaky. Make sure you use a lip balm with spf and zany ingredients instead.",
+        "loglik": -180.41434,
+        "n_chars": 219,
+        "score_per_char": -0.82381,
+        "correct": false
+      },
+      {
+        "text": "Let your lip balm dry and then use it to seal any pores. Your self-protection techniques are the cleanest!. Use lip balm before bed.",
+        "loglik": -112.60095,
+        "n_chars": 132,
+        "score_per_char": -0.85304,
+        "correct": false
+      },
+      {
+        "text": " If you do not have a lip balm, then chapstick works just as well. Try to look for one with at least a little bit of spf in it.",
+        "loglik": -123.70937,
+        "n_chars": 127,
+        "score_per_char": -0.97409,
+        "correct": true
+      },
+      {
+        "text": "For health reasons, don't use many of them. It won't do you much good anyway.",
+        "loglik": -62.64531,
+        "n_chars": 77,
+        "score_per_char": -0.81358,
+        "correct": false
+      }
+    ]
+  }
+]

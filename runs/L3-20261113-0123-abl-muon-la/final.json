@@ -1,0 +1,49 @@
+{
+  "run_id": "L3-20261113-0123-abl-muon-la",
+  "finished": "2026-11-15T04:18:52+00:00",
+  "stop_reason": "max_steps",
+  "step": 3800,
+  "tokens_seen": 996147200,
+  "schedule": {
+    "total": 3800,
+    "decay_start": 2850
+  },
+  "final_eval": {
+    "step": 3800,
+    "tokens_seen": 996147200,
+    "val_loss": 3.295813,
+    "val_tokens": 19988480,
+    "val_bits_per_byte": 1.053866,
+    "hellaswag_acc_norm": 0.282513,
+    "hellaswag_acc": 0.271858,
+    "hellaswag_acc_tokennorm": 0.275244,
+    "hellaswag_margin_mean": -0.094186,
+    "hellaswag_n": 10042,
+    "final": true,
+    "val_s": 4.5,
+    "hellaswag_s": 1.3,
+    "accel_hours": 0.5336,
+    "wall_s": 938.9
+  },
+  "hellaswag_summary": {
+    "n_items": 10042,
+    "hellaswag_acc_norm": 0.282513,
+    "hellaswag_acc_norm_se": 0.004493,
+    "hellaswag_acc": 0.271858,
+    "hellaswag_acc_se": 0.00444,
+    "hellaswag_acc_tokennorm": 0.275244,
+    "hellaswag_margin_mean": -0.094186,
+    "by_split_type": {
+      "indomain": {
+        "n": 5001,
+        "acc_norm": 0.281944
+      },
+      "zeroshot": {
+        "n": 5041,
+        "acc_norm": 0.283079
+      }
+    }
+  },
+  "accel_hours_at_end": 0.5337,
+  "wall_s": 939.1
+}

@@ -1,0 +1,49 @@
+{
+  "run_id": "L3-20261115-1104-main",
+  "finished": "2026-11-17T07:04:46+00:00",
+  "stop_reason": "max_steps",
+  "step": 11676,
+  "tokens_seen": 6121586688,
+  "schedule": {
+    "total": 11676,
+    "decay_start": 8760
+  },
+  "final_eval": {
+    "step": 11676,
+    "tokens_seen": 6121586688,
+    "val_loss": 2.702729,
+    "val_tokens": 19988480,
+    "val_bits_per_byte": 0.864222,
+    "hellaswag_acc_norm": 0.406891,
+    "hellaswag_acc": 0.338976,
+    "hellaswag_acc_tokennorm": 0.40231,
+    "hellaswag_margin_mean": -0.039697,
+    "hellaswag_n": 10042,
+    "final": true,
+    "val_s": 19.4,
+    "hellaswag_s": 3.6,
+    "accel_hours": 9.012,
+    "wall_s": 28259.0
+  },
+  "hellaswag_summary": {
+    "n_items": 10042,
+    "hellaswag_acc_norm": 0.406891,
+    "hellaswag_acc_norm_se": 0.004902,
+    "hellaswag_acc": 0.338976,
+    "hellaswag_acc_se": 0.004724,
+    "hellaswag_acc_tokennorm": 0.40231,
+    "hellaswag_margin_mean": -0.039697,
+    "by_split_type": {
+      "indomain": {
+        "n": 5001,
+        "acc_norm": 0.416517
+      },
+      "zeroshot": {
+        "n": 5041,
+        "acc_norm": 0.397342
+      }
+    }
+  },
+  "accel_hours_at_end": 9.0132,
+  "wall_s": 28263.4
+}

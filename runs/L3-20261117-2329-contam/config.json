@@ -1,0 +1,104 @@
+{
+  "run_id": "L3-20261117-2329-contam",
+  "level": 3,
+  "kind": "contamination scan (no training)",
+  "started": "2026-11-17T17:28:58+00:00",
+  "args": {
+    "train_glob": "/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-a/fwedu_000.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-a/fwedu_001.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-a/fwedu_002.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-a/fwedu_003.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-b/fwedu_004.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-b/fwedu_005.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-b/fwedu_006.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-b/fwedu_007.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-c/fwedu_008.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-c/fwedu_009.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-c/fwedu_010.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-c/fwedu_011.bin|/kaggle/input/notebooks/kaggle-user/ep04-l3-tok-d/fwedu_012.bin",
+    "tokenizer": "/kaggle/input/datasets/kaggle-user/ep04-l3-meta/tokenizer.json",
+    "hellaswag": "/kaggle/input/datasets/kaggle-user/ep04-l3-meta/hellaswag_val.jsonl",
+    "run_id": "L3-20261117-2329-contam",
+    "runs_dir": "/kaggle/working/runs",
+    "block_size": 1024,
+    "data_seed": 2026,
+    "batch_windows": 512,
+    "trained_steps": 11676,
+    "expect_windows": 9786899,
+    "expect_files": "fwedu_000.bin,fwedu_001.bin,fwedu_002.bin,fwedu_003.bin,fwedu_004.bin,fwedu_005.bin,fwedu_006.bin,fwedu_007.bin,fwedu_008.bin,fwedu_009.bin,fwedu_010.bin,fwedu_011.bin,fwedu_012.bin",
+    "chunk": 67108864,
+    "workers": 4,
+    "hardware_note": "Kaggle CPU session (no accelerator)"
+  },
+  "n": 13,
+  "hash": "Horner over (token+1), multiplier 0x9E3779B97F4A7C15, mod 2^64; every hit checked token by token",
+  "table_bits": 26,
+  "classes": [
+    "ctx",
+    "gold",
+    "wrong"
+  ],
+  "train_files": [
+    {
+      "name": "fwedu_000.bin",
+      "tokens": 772076784
+    },
+    {
+      "name": "fwedu_001.bin",
+      "tokens": 770382851
+    },
+    {
+      "name": "fwedu_002.bin",
+      "tokens": 770477886
+    },
+    {
+      "name": "fwedu_003.bin",
+      "tokens": 768412807
+    },
+    {
+      "name": "fwedu_004.bin",
+      "tokens": 768508692
+    },
+    {
+      "name": "fwedu_005.bin",
+      "tokens": 771026452
+    },
+    {
+      "name": "fwedu_006.bin",
+      "tokens": 773286566
+    },
+    {
+      "name": "fwedu_007.bin",
+      "tokens": 772647438
+    },
+    {
+      "name": "fwedu_008.bin",
+      "tokens": 771520503
+    },
+    {
+      "name": "fwedu_009.bin",
+      "tokens": 773799932
+    },
+    {
+      "name": "fwedu_010.bin",
+      "tokens": 770972447
+    },
+    {
+      "name": "fwedu_011.bin",
+      "tokens": 769210938
+    },
+    {
+      "name": "fwedu_012.bin",
+      "tokens": 769468748
+    }
+  ],
+  "train_tokens": 10021792044,
+  "train_windows": 9786899,
+  "trained_windows": 5978112,
+  "trained_order_sha": "6640fd5d66eb3abf",
+  "items": 10042,
+  "hellaswag_sha": "58efa63005494025",
+  "tokenizer_sha": "bc3533abdd573457",
+  "query_triples": 1152183,
+  "query_windows": 1133074,
+  "wrong_windows_dropped_as_shared": 2549,
+  "code_hash": "6775779d39beb822",
+  "software": {
+    "numpy": "2.1.3",
+    "python": "3.13.18"
+  },
+  "hardware": {
+    "cpus": 4,
+    "note": "Kaggle CPU session (no accelerator)",
+    "workers": 4
+  }
+}

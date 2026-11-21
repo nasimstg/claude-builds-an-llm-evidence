@@ -1,0 +1,222 @@
+{
+  "ckpt": "runs/L2-20261108-1951-cont/ckpt/step_9918.pt",
+  "run_id": "L2-20261108-1951-cont",
+  "step": 9918,
+  "opponent": "Stockfish 19, Skill Level 0",
+  "movetime_s": 0.1,
+  "match_games": 20,
+  "wins": 12,
+  "draws": 3,
+  "losses": 5,
+  "forfeits": 0,
+  "extra_games_for_move_count": 6,
+  "legal_first_attempt_over_first_n": {
+    "n": 1000,
+    "legal": 988,
+    "rate": 0.988,
+    "exact": 0.977
+  },
+  "all_model_moves": 1075,
+  "all_illegal_first_attempts": 12,
+  "results": [
+    {
+      "game": 1,
+      "model_color": "white",
+      "result": "1-0",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 101,
+      "illegal_at": []
+    },
+    {
+      "game": 2,
+      "model_color": "white",
+      "result": "0-1",
+      "model_score": 0.0,
+      "termination": "checkmate",
+      "plies": 128,
+      "illegal_at": []
+    },
+    {
+      "game": 3,
+      "model_color": "white",
+      "result": "1-0",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 81,
+      "illegal_at": [
+        "37.",
+        "40."
+      ]
+    },
+    {
+      "game": 4,
+      "model_color": "white",
+      "result": "1/2-1/2",
+      "model_score": 0.5,
+      "termination": "threefold_repetition",
+      "plies": 167,
+      "illegal_at": []
+    },
+    {
+      "game": 5,
+      "model_color": "white",
+      "result": "1-0",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 69,
+      "illegal_at": []
+    },
+    {
+      "game": 6,
+      "model_color": "white",
+      "result": "1-0",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 57,
+      "illegal_at": []
+    },
+    {
+      "game": 7,
+      "model_color": "white",
+      "result": "1-0",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 69,
+      "illegal_at": []
+    },
+    {
+      "game": 8,
+      "model_color": "white",
+      "result": "1/2-1/2",
+      "model_score": 0.5,
+      "termination": "stalemate",
+      "plies": 79,
+      "illegal_at": [
+        "37."
+      ]
+    },
+    {
+      "game": 9,
+      "model_color": "white",
+      "result": "0-1",
+      "model_score": 0.0,
+      "termination": "checkmate",
+      "plies": 32,
+      "illegal_at": []
+    },
+    {
+      "game": 10,
+      "model_color": "white",
+      "result": "1-0",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 127,
+      "illegal_at": []
+    },
+    {
+      "game": 11,
+      "model_color": "black",
+      "result": "0-1",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 120,
+      "illegal_at": []
+    },
+    {
+      "game": 12,
+      "model_color": "black",
+      "result": "0-1",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 92,
+      "illegal_at": []
+    },
+    {
+      "game": 13,
+      "model_color": "black",
+      "result": "0-1",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 54,
+      "illegal_at": []
+    },
+    {
+      "game": 14,
+      "model_color": "black",
+      "result": "0-1",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 50,
+      "illegal_at": []
+    },
+    {
+      "game": 15,
+      "model_color": "black",
+      "result": "0-1",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 74,
+      "illegal_at": []
+    },
+    {
+      "game": 16,
+      "model_color": "black",
+      "result": "1-0",
+      "model_score": 0.0,
+      "termination": "checkmate",
+      "plies": 79,
+      "illegal_at": [
+        "12..."
+      ]
+    },
+    {
+      "game": 17,
+      "model_color": "black",
+      "result": "1-0",
+      "model_score": 0.0,
+      "termination": "checkmate",
+      "plies": 59,
+      "illegal_at": []
+    },
+    {
+      "game": 18,
+      "model_color": "black",
+      "result": "1-0",
+      "model_score": 0.0,
+      "termination": "checkmate",
+      "plies": 127,
+      "illegal_at": [
+        "18...",
+        "41...",
+        "60...",
+        "62..."
+      ]
+    },
+    {
+      "game": 19,
+      "model_color": "black",
+      "result": "1/2-1/2",
+      "model_score": 0.5,
+      "termination": "threefold_repetition",
+      "plies": 82,
+      "illegal_at": [
+        "21..."
+      ]
+    },
+    {
+      "game": 20,
+      "model_color": "black",
+      "result": "0-1",
+      "model_score": 1.0,
+      "termination": "checkmate",
+      "plies": 104,
+      "illegal_at": [
+        "23..."
+      ]
+    }
+  ],
+  "protocol": "NOTEBOOK 2026-11-08 14:21: greedy; illegal -> up to 4 tries at T=1.0, else forfeit; claimable draws are draws; draw at 300 plies",
+  "seconds": 60.6,
+  "workers": 6
+}

@@ -1,0 +1,403 @@
+{
+  "scan_run": "L3-20261117-2329-contam",
+  "mine": "runs\\L3-20261115-1104-main\\hellaswag_items.jsonl",
+  "gpt2": "runs\\L3-20261110-2034-gpt2-baseline\\baseline_gpt2_prefix_eot_items.jsonl",
+  "metric": "HellaSwag acc_norm (scorer hs-v1), per-item records; diff = mine - GPT-2, paired over items",
+  "subsets": {
+    "all": {
+      "all": {
+        "n": 10042,
+        "mine": 0.4069,
+        "mine_se": 0.0049,
+        "gpt2": 0.3127,
+        "gpt2_se": 0.0046,
+        "diff": 0.0942,
+        "diff_se": 0.0039,
+        "z": 24.4,
+        "mine_only": 1266,
+        "gpt2_only": 320
+      },
+      "wikihow": {
+        "n": 6799,
+        "mine": 0.3911,
+        "mine_se": 0.0059,
+        "gpt2": 0.275,
+        "gpt2_se": 0.0054,
+        "diff": 0.116,
+        "diff_se": 0.0047,
+        "z": 24.9,
+        "mine_only": 942,
+        "gpt2_only": 153
+      },
+      "activitynet": {
+        "n": 3243,
+        "mine": 0.44,
+        "mine_se": 0.0087,
+        "gpt2": 0.3916,
+        "gpt2_se": 0.0086,
+        "diff": 0.0484,
+        "diff_se": 0.0068,
+        "z": 7.1,
+        "mine_only": 324,
+        "gpt2_only": 167
+      },
+      "indomain": {
+        "n": 5001,
+        "mine": 0.4165,
+        "mine_se": 0.007,
+        "gpt2": 0.3097,
+        "gpt2_se": 0.0065,
+        "diff": 0.1068,
+        "diff_se": 0.0056,
+        "z": 19.1,
+        "mine_only": 685,
+        "gpt2_only": 151
+      },
+      "zeroshot": {
+        "n": 5041,
+        "mine": 0.3973,
+        "mine_se": 0.0069,
+        "gpt2": 0.3156,
+        "gpt2_se": 0.0065,
+        "diff": 0.0817,
+        "diff_se": 0.0053,
+        "z": 15.4,
+        "mine_only": 581,
+        "gpt2_only": 169
+      }
+    },
+    "clean": {
+      "all": {
+        "n": 9831,
+        "mine": 0.4042,
+        "mine_se": 0.0049,
+        "gpt2": 0.3122,
+        "gpt2_se": 0.0047,
+        "diff": 0.0921,
+        "diff_se": 0.0039,
+        "z": 23.7,
+        "mine_only": 1223,
+        "gpt2_only": 318
+      },
+      "wikihow": {
+        "n": 6588,
+        "mine": 0.3866,
+        "mine_se": 0.006,
+        "gpt2": 0.2731,
+        "gpt2_se": 0.0055,
+        "diff": 0.1135,
+        "diff_se": 0.0047,
+        "z": 24.1,
+        "mine_only": 899,
+        "gpt2_only": 151
+      },
+      "activitynet": {
+        "n": 3243,
+        "mine": 0.44,
+        "mine_se": 0.0087,
+        "gpt2": 0.3916,
+        "gpt2_se": 0.0086,
+        "diff": 0.0484,
+        "diff_se": 0.0068,
+        "z": 7.1,
+        "mine_only": 324,
+        "gpt2_only": 167
+      },
+      "indomain": {
+        "n": 4863,
+        "mine": 0.4129,
+        "mine_se": 0.0071,
+        "gpt2": 0.3082,
+        "gpt2_se": 0.0066,
+        "diff": 0.1047,
+        "diff_se": 0.0057,
+        "z": 18.5,
+        "mine_only": 659,
+        "gpt2_only": 150
+      },
+      "zeroshot": {
+        "n": 4968,
+        "mine": 0.3957,
+        "mine_se": 0.0069,
+        "gpt2": 0.316,
+        "gpt2_se": 0.0066,
+        "diff": 0.0797,
+        "diff_se": 0.0053,
+        "z": 15.0,
+        "mine_only": 564,
+        "gpt2_only": 168
+      }
+    },
+    "dirty": {
+      "all": {
+        "n": 211,
+        "mine": 0.5308,
+        "mine_se": 0.0344,
+        "gpt2": 0.3365,
+        "gpt2_se": 0.0325,
+        "diff": 0.1943,
+        "diff_se": 0.0289,
+        "z": 6.7,
+        "mine_only": 43,
+        "gpt2_only": 2
+      },
+      "wikihow": {
+        "n": 211,
+        "mine": 0.5308,
+        "mine_se": 0.0344,
+        "gpt2": 0.3365,
+        "gpt2_se": 0.0325,
+        "diff": 0.1943,
+        "diff_se": 0.0289,
+        "z": 6.7,
+        "mine_only": 43,
+        "gpt2_only": 2
+      },
+      "activitynet": {
+        "n": 0
+      },
+      "indomain": {
+        "n": 138,
+        "mine": 0.5435,
+        "mine_se": 0.0424,
+        "gpt2": 0.3623,
+        "gpt2_se": 0.0409,
+        "diff": 0.1812,
+        "diff_se": 0.0345,
+        "z": 5.3,
+        "mine_only": 26,
+        "gpt2_only": 1
+      },
+      "zeroshot": {
+        "n": 73,
+        "mine": 0.5068,
+        "mine_se": 0.0585,
+        "gpt2": 0.2877,
+        "gpt2_se": 0.053,
+        "diff": 0.2192,
+        "diff_se": 0.0525,
+        "z": 4.2,
+        "mine_only": 17,
+        "gpt2_only": 1
+      }
+    },
+    "dirty_seen": {
+      "all": {
+        "n": 143,
+        "mine": 0.5175,
+        "mine_se": 0.0418,
+        "gpt2": 0.3427,
+        "gpt2_se": 0.0397,
+        "diff": 0.1748,
+        "diff_se": 0.0334,
+        "z": 5.2,
+        "mine_only": 26,
+        "gpt2_only": 1
+      },
+      "wikihow": {
+        "n": 143,
+        "mine": 0.5175,
+        "mine_se": 0.0418,
+        "gpt2": 0.3427,
+        "gpt2_se": 0.0397,
+        "diff": 0.1748,
+        "diff_se": 0.0334,
+        "z": 5.2,
+        "mine_only": 26,
+        "gpt2_only": 1
+      },
+      "activitynet": {
+        "n": 0
+      },
+      "indomain": {
+        "n": 86,
+        "mine": 0.5116,
+        "mine_se": 0.0539,
+        "gpt2": 0.3488,
+        "gpt2_se": 0.0514,
+        "diff": 0.1628,
+        "diff_se": 0.04,
+        "z": 4.1,
+        "mine_only": 14,
+        "gpt2_only": 0
+      },
+      "zeroshot": {
+        "n": 57,
+        "mine": 0.5263,
+        "mine_se": 0.0661,
+        "gpt2": 0.3333,
+        "gpt2_se": 0.0624,
+        "diff": 0.193,
+        "diff_se": 0.0584,
+        "z": 3.3,
+        "mine_only": 12,
+        "gpt2_only": 1
+      }
+    },
+    "dirty_not_seen": {
+      "all": {
+        "n": 68,
+        "mine": 0.5588,
+        "mine_se": 0.0602,
+        "gpt2": 0.3235,
+        "gpt2_se": 0.0567,
+        "diff": 0.2353,
+        "diff_se": 0.0559,
+        "z": 4.2,
+        "mine_only": 17,
+        "gpt2_only": 1
+      },
+      "wikihow": {
+        "n": 68,
+        "mine": 0.5588,
+        "mine_se": 0.0602,
+        "gpt2": 0.3235,
+        "gpt2_se": 0.0567,
+        "diff": 0.2353,
+        "diff_se": 0.0559,
+        "z": 4.2,
+        "mine_only": 17,
+        "gpt2_only": 1
+      },
+      "activitynet": {
+        "n": 0
+      },
+      "indomain": {
+        "n": 52,
+        "mine": 0.5962,
+        "mine_se": 0.068,
+        "gpt2": 0.3846,
+        "gpt2_se": 0.0675,
+        "diff": 0.2115,
+        "diff_se": 0.0634,
+        "z": 3.3,
+        "mine_only": 12,
+        "gpt2_only": 1
+      },
+      "zeroshot": {
+        "n": 16,
+        "mine": 0.4375,
+        "mine_se": 0.124,
+        "gpt2": 0.125,
+        "gpt2_se": 0.0827,
+        "diff": 0.3125,
+        "diff_se": 0.1197,
+        "z": 2.6,
+        "mine_only": 5,
+        "gpt2_only": 0
+      }
+    },
+    "heavy": {
+      "all": {
+        "n": 72,
+        "mine": 0.5,
+        "mine_se": 0.0589,
+        "gpt2": 0.2917,
+        "gpt2_se": 0.0536,
+        "diff": 0.2083,
+        "diff_se": 0.0557,
+        "z": 3.7,
+        "mine_only": 17,
+        "gpt2_only": 2
+      },
+      "wikihow": {
+        "n": 72,
+        "mine": 0.5,
+        "mine_se": 0.0589,
+        "gpt2": 0.2917,
+        "gpt2_se": 0.0536,
+        "diff": 0.2083,
+        "diff_se": 0.0557,
+        "z": 3.7,
+        "mine_only": 17,
+        "gpt2_only": 2
+      },
+      "activitynet": {
+        "n": 0
+      },
+      "indomain": {
+        "n": 43,
+        "mine": 0.4884,
+        "mine_se": 0.0762,
+        "gpt2": 0.3256,
+        "gpt2_se": 0.0715,
+        "diff": 0.1628,
+        "diff_se": 0.066,
+        "z": 2.5,
+        "mine_only": 8,
+        "gpt2_only": 1
+      },
+      "zeroshot": {
+        "n": 29,
+        "mine": 0.5172,
+        "mine_se": 0.0928,
+        "gpt2": 0.2414,
+        "gpt2_se": 0.0795,
+        "diff": 0.2759,
+        "diff_se": 0.098,
+        "z": 2.8,
+        "mine_only": 9,
+        "gpt2_only": 1
+      }
+    },
+    "leak": {
+      "all": {
+        "n": 37,
+        "mine": 0.4865,
+        "mine_se": 0.0822,
+        "gpt2": 0.3514,
+        "gpt2_se": 0.0785,
+        "diff": 0.1351,
+        "diff_se": 0.057,
+        "z": 2.4,
+        "mine_only": 5,
+        "gpt2_only": 0
+      },
+      "wikihow": {
+        "n": 37,
+        "mine": 0.4865,
+        "mine_se": 0.0822,
+        "gpt2": 0.3514,
+        "gpt2_se": 0.0785,
+        "diff": 0.1351,
+        "diff_se": 0.057,
+        "z": 2.4,
+        "mine_only": 5,
+        "gpt2_only": 0
+      },
+      "activitynet": {
+        "n": 0
+      },
+      "indomain": {
+        "n": 19,
+        "mine": 0.4737,
+        "mine_se": 0.1145,
+        "gpt2": 0.3684,
+        "gpt2_se": 0.1107,
+        "diff": 0.1053,
+        "diff_se": 0.0723,
+        "z": 1.5,
+        "mine_only": 2,
+        "gpt2_only": 0
+      },
+      "zeroshot": {
+        "n": 18,
+        "mine": 0.5,
+        "mine_se": 0.1179,
+        "gpt2": 0.3333,
+        "gpt2_se": 0.1111,
+        "diff": 0.1667,
+        "diff_se": 0.0904,
+        "z": 1.8,
+        "mine_only": 3,
+        "gpt2_only": 0
+      }
+    }
+  },
+  "dirty_minus_clean_gain": {
+    "value": 0.1022,
+    "se": 0.0292
+  },
+  "verdict_rule": "clean items: paired diff (mine - GPT-2) > 0 with z > 3 -> the Level 3 win stands without an asterisk (NOTEBOOK 2026-11-17 23:29)",
+  "verdict": "STANDS"
+}

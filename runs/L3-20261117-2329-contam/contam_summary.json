@@ -1,0 +1,56 @@
+{
+  "run_id": "L3-20261117-2329-contam",
+  "finished": "2026-11-17T17:34:03+00:00",
+  "train_tokens": 10021792044,
+  "windows_scanned": 10021791888,
+  "scan_seconds": 304.3,
+  "total_seconds": 318.0,
+  "occurrences": 10660,
+  "occurrences_in_trained": 6421,
+  "hash_collisions_rejected": 0,
+  "prefilter_candidates": 164952853,
+  "distinct_windows_found": 4134,
+  "query_windows": 1133074,
+  "occurrence_rows_stored": 10660,
+  "occurrence_rows_truncated": false,
+  "trained_order_sha": "6640fd5d66eb3abf",
+  "numpy": "2.1.3",
+  "all": {
+    "items": 10042,
+    "dirty": 211,
+    "dirty_seen": 143,
+    "heavy": 72,
+    "leak": 37
+  },
+  "wikihow": {
+    "items": 6799,
+    "dirty": 211,
+    "dirty_seen": 143,
+    "heavy": 72,
+    "leak": 37
+  },
+  "activitynet": {
+    "items": 3243,
+    "dirty": 0,
+    "dirty_seen": 0,
+    "heavy": 0,
+    "leak": 0
+  },
+  "by_class_windows": {
+    "ctx": {
+      "windows": 231591,
+      "found": 1916,
+      "found_in_trained": 1226
+    },
+    "gold": {
+      "windows": 233362,
+      "found": 2190,
+      "found_in_trained": 1455
+    },
+    "wrong": {
+      "windows": 687230,
+      "found": 61,
+      "found_in_trained": 43
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "ckpt": "runs/L2-20261108-1509-spelled/ckpt/step_10681.pt",
+  "run_id": "L2-20261108-1509-spelled",
+  "step": 10681,
+  "labeling": "absolute",
+  "games": {
+    "train": [
+      3000,
+      4200
+    ],
+    "test": [
+      4200,
+      4500
+    ]
+  },
+  "reading_points": {
+    "W": "after white's move, last token of the move (next token: black's move)",
+    "B": "after black's move, last token of the move (next token: a move number)",
+    "B+": "same board as B, last token of the next move number (next token: white's move)"
+  },
+  "positions": {
+    "W": {
+      "train": 44496,
+      "test": 10857
+    },
+    "B": {
+      "train": 43863,
+      "test": 10714
+    },
+    "B+": {
+      "train": 43296,
+      "test": 10557
+    }
+  },
+  "separate_probes": {
+    "6": {
+      "W": {
+        "square_acc": 0.92385,
+        "occupied_square_acc": 0.85869,
+        "empty_square_acc": 0.96075,
+        "whole_board_acc": 0.175,
+        "train_square_acc": 0.94911
+      },
+      "B": {
+        "square_acc": 0.82437,
+        "occupied_square_acc": 0.64738,
+        "empty_square_acc": 0.92369,
+        "whole_board_acc": 0.03509,
+        "train_square_acc": 0.8463
+      },
+      "B+": {
+        "square_acc": 0.92388,
+        "occupied_square_acc": 0.8629,
+        "empty_square_acc": 0.95834,
+        "whole_board_acc": 0.16255,
+        "train_square_acc": 0.95106
+      }
+    },
+    "9": {
+      "W": {
+        "square_acc": 0.96401,
+        "occupied_square_acc": 0.93899,
+        "empty_square_acc": 0.97818,
+        "whole_board_acc": 0.27982,
+        "train_square_acc": 0.9818
+      },
+      "B": {
+        "square_acc": 0.82849,
+        "occupied_square_acc": 0.66341,
+        "empty_square_acc": 0.92114,
+        "whole_board_acc": 0.03892,
+        "train_square_acc": 0.85454
+      },
+      "B+": {
+        "square_acc": 0.95507,
+        "occupied_square_acc": 0.92536,
+        "empty_square_acc": 0.97185,
+        "whole_board_acc": 0.22052,
+        "train_square_acc": 0.97496
+      }
+    },
+    "12": {
+      "W": {
+        "square_acc": 0.98478,
+        "occupied_square_acc": 0.97595,
+        "empty_square_acc": 0.98977,
+        "whole_board_acc": 0.49581,
+        "train_square_acc": 0.99661
+      },
+      "B": {
+        "square_acc": 0.85242,
+        "occupied_square_acc": 0.71036,
+        "empty_square_acc": 0.93216,
+        "whole_board_acc": 0.0308,
+        "train_square_acc": 0.87774
+      },
+      "B+": {
+        "square_acc": 0.98536,
+        "occupied_square_acc": 0.97782,
+        "empty_square_acc": 0.98962,
+        "whole_board_acc": 0.51625,
+        "train_square_acc": 0.99687
+      }
+    }
+  },
+  "joint_probe": {
+    "6": {
+      "W": {
+        "square_acc": 0.91353,
+        "occupied_square_acc": 0.83308,
+        "empty_square_acc": 0.95908,
+        "whole_board_acc": 0.15244
+      },
+      "B": {
+        "square_acc": 0.81294,
+        "occupied_square_acc": 0.61362,
+        "empty_square_acc": 0.92481,
+        "whole_board_acc": 0.02268
+      },
+      "B+": {
+        "square_acc": 0.46132,
+        "occupied_square_acc": 0.40854,
+        "empty_square_acc": 0.49115,
+        "whole_board_acc": 0.0
+      }
+    },
+    "9": {
+      "W": {
+        "square_acc": 0.95054,
+        "occupied_square_acc": 0.91077,
+        "empty_square_acc": 0.97306,
+        "whole_board_acc": 0.22124
+      },
+      "B": {
+        "square_acc": 0.81694,
+        "occupied_square_acc": 0.62783,
+        "empty_square_acc": 0.92308,
+        "whole_board_acc": 0.02436
+      },
+      "B+": {
+        "square_acc": 0.54645,
+        "occupied_square_acc": 0.40848,
+        "empty_square_acc": 0.62444,
+        "whole_board_acc": 0.0
+      }
+    },
+    "12": {
+      "W": {
+        "square_acc": 0.97119,
+        "occupied_square_acc": 0.94737,
+        "empty_square_acc": 0.98467,
+        "whole_board_acc": 0.33573
+      },
+      "B": {
+        "square_acc": 0.8385,
+        "occupied_square_acc": 0.67364,
+        "empty_square_acc": 0.93102,
+        "whole_board_acc": 0.02165
+      },
+      "B+": {
+        "square_acc": 0.59386,
+        "occupied_square_acc": 0.27467,
+        "empty_square_acc": 0.77426,
+        "whole_board_acc": 0.0
+      }
+    }
+  },
+  "seconds": 173.6
+}

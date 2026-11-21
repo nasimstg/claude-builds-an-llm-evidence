@@ -1,0 +1,182 @@
+{
+  "run_id": "L1-20261107-2111-ab-s1-clock",
+  "level": 1,
+  "started": "2026-11-07T15:46:01+00:00",
+  "seed": 1001,
+  "code_hash": "bbc57930b2c47727",
+  "args": {
+    "run_id": "L1-20261107-2111-ab-s1-clock",
+    "runs_dir": "/kaggle/working/runs",
+    "data_dir": "/kaggle/input/datasets/kaggle-user/ep04-tinystories-tok4k",
+    "tokenizer": "/kaggle/input/datasets/kaggle-user/ep04-tinystories-tok4k/tokenizer.json",
+    "seed": 1001,
+    "n_layer": 8,
+    "n_head": 8,
+    "d_model": 512,
+    "d_ff": 1408,
+    "block_size": 512,
+    "clock": true,
+    "clock_weight": 0.1,
+    "micro_batch": 64,
+    "grad_accum": 1,
+    "max_tokens": 100000000,
+    "max_steps": 0,
+    "lr": 0.0015,
+    "min_lr_frac": 0.1,
+    "warmup": 200,
+    "wd": 0.1,
+    "beta2": 0.95,
+    "clip": 1.0,
+    "dtype": "fp16",
+    "compile": true,
+    "device": "",
+    "eval_every": 250,
+    "val_tokens": 1048576,
+    "eval_batch": 64,
+    "judge_n": 16,
+    "judge_max_new": 400,
+    "judge_seed": 2026,
+    "sample_seed": 42,
+    "sample_tokens": 200,
+    "n_ckpt": 12,
+    "n_embed": 8,
+    "log_every": 1,
+    "print_every": 100,
+    "latest_every_min": 15.0,
+    "time_limit_min": 38.0,
+    "max_nan": 5,
+    "session_start": 1794066045.9685085,
+    "quota_hours_before": 0.278,
+    "usd_spent": 0.0,
+    "hardware_note": "Kaggle GPU T4 x2",
+    "resume": "",
+    "no_tee": true,
+    "note": "A/B seed 1: narrative clock",
+    "crash_at_step": 0
+  },
+  "model": {
+    "vocab_size": 4353,
+    "vocab_pad": 4416,
+    "block_size": 512,
+    "n_layer": 8,
+    "n_head": 8,
+    "d_model": 512,
+    "d_ff": 1408,
+    "rope_base": 10000.0,
+    "clock": true,
+    "clock_weight": 0.1
+  },
+  "params_total": 27960321,
+  "params_non_embedding": 25699329,
+  "tokens_per_step": 32768,
+  "max_steps": 3051,
+  "planned_tokens": 99975168,
+  "dataset": {
+    "name": "roneneldan/TinyStories (TinyStoriesV2-GPT4 train/valid)",
+    "data_dir": "/kaggle/input/datasets/kaggle-user/ep04-tinystories-tok4k",
+    "shards": [
+      "train.bin",
+      "val.bin"
+    ],
+    "meta": {
+      "tokenizer": "lab/tokenizer/tokenizer.json",
+      "vocab_size": 4353,
+      "eot_id": 256,
+      "dtype": "uint16",
+      "layout": "EOT story EOT story ... EOT (leading EOT acts as the start token)",
+      "filter": "typographic quotes/dashes/ellipsis normalised to ASCII; stories still containing any non-ASCII character dropped",
+      "splits": {
+        "val": {
+          "file": "val.bin",
+          "tokens": 5546133,
+          "stories": 27626,
+          "text_bytes": 22064244,
+          "bytes_per_token": 3.9982
+        },
+        "train": {
+          "file": "train.bin",
+          "tokens": 549359605,
+          "stories": 2717260,
+          "text_bytes": 2184769195,
+          "bytes_per_token": 3.9967
+        }
+      }
+    }
+  },
+  "tokenizer": {
+    "path": "/kaggle/input/datasets/kaggle-user/ep04-tinystories-tok4k/tokenizer.json",
+    "vocab_size": 4353,
+    "merges": 4096
+  },
+  "hardware": {
+    "device": "cuda",
+    "world_size": 1,
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpus": [
+      "Tesla T4"
+    ],
+    "cpu_count": 4,
+    "note": "Kaggle GPU T4 x2"
+  },
+  "schedules": {
+    "samples": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      3051
+    ],
+    "ckpt": [
+      0,
+      50,
+      100,
+      200,
+      500,
+      1000,
+      1342,
+      1684,
+      2026,
+      2367,
+      2709,
+      3051
+    ],
+    "embed": [
+      0,
+      100,
+      200,
+      1000,
+      1342,
+      2026,
+      2367,
+      3051
+    ],
+    "eval_every": 250
+  },
+  "fixed_prompts": [
+    "Once upon a time",
+    "The little dog was sad because",
+    "The capital of France is",
+    "To make a cake, you need",
+    "1, 2, 3, 4,"
+  ],
+  "judge_prompt": "Once upon a time",
+  "clock_constant_baseline": {
+    "median_log_tokens_left": 4.6151204109191895,
+    "mae": 0.7498685717582703
+  },
+  "accounting": {
+    "accel_hours": "Kaggle session wall-clock hours since the session started (the quota is charged per session hour, whatever the GPU count)",
+    "usd_spent": 0.0
+  }
+}

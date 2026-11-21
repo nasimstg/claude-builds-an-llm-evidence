@@ -1,0 +1,48 @@
+{
+  "conversation": "q4.json",
+  "created": "2026-11-18T13:30:50+06:00",
+  "user_is": "Claude",
+  "model": {
+    "ckpt": "runs/LE-20261118-0201-rank/ckpt/step_695.pt",
+    "run_id": "LE-20261118-0201-rank",
+    "arm": "rank",
+    "step": 695,
+    "dtype_on_disk": "float32"
+  },
+  "model_sha": "c73eebd3bd17c4f2",
+  "hardware": "this PC's CPU (Ryzen 7 5700X), 16 threads, float32",
+  "note": "unedited: every turn as typed and as generated, in order",
+  "turns": [
+    {
+      "role": "user",
+      "t": "2026-11-18T13:30:51+06:00",
+      "who": "Claude",
+      "text": "Can you give me three tips for sleeping better?"
+    },
+    {
+      "role": "assistant",
+      "t": "2026-11-18T13:31:11+06:00",
+      "text": "Here are a few tips to help improve your sleep:\n1. Establish a consistent sleep schedule and stick to it: Try to go to bed and wake up at the same time every day, even on weekends. This will help regulate your body's internal clock and ensure you get enough sleep each night.\n2. Avoid screens before bed: A screen can keep your mind active, so try to avoid using it or turning it off an hour or two before bedtime.\n3. Create a relaxing environment: Make sure your bedroom is cool, dark, and quiet, with a comfortable temperature and no loud noises. This will help you sleep better at night.\n4. Exercise regularly: Regular exercise can help improve your sleep quality by reducing stress and anxiety levels and increasing blood flow to your brain. Aim for 30-60 minutes of moderate-intensity exercise each day, such as walking, swimming, or light yoga.\n5. Limit caffeine intake: Caffeine can interfere with sleep, so try to avoid drinking it at least two hours before bedtime. If you do consume it, limit yourself to no more than 200 mg per day.",
+      "new_tokens": 234,
+      "ended_turn": true,
+      "prompt_tokens": 14,
+      "context_dropped_turns": 0,
+      "seconds": 19.8,
+      "tokens_per_sec": 11.82,
+      "seed": 1000,
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "rep_penalty": 1.1,
+        "rep_window": 64,
+        "max_new_tokens": 300,
+        "banned": [
+          "<|endoftext|>",
+          "<|user|>",
+          "<|assistant|>"
+        ],
+        "stop": "<|end|>"
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "run_id": "L3-20261113-0123-abl-adamw",
+  "finished": "2026-11-15T04:32:32+00:00",
+  "stop_reason": "max_steps",
+  "step": 3800,
+  "tokens_seen": 996147200,
+  "schedule": {
+    "total": 3800,
+    "decay_start": 2850
+  },
+  "final_eval": {
+    "step": 3800,
+    "tokens_seen": 996147200,
+    "val_loss": 3.328601,
+    "val_tokens": 19988480,
+    "val_bits_per_byte": 1.064351,
+    "hellaswag_acc_norm": 0.281617,
+    "hellaswag_acc": 0.270962,
+    "hellaswag_acc_tokennorm": 0.272854,
+    "hellaswag_margin_mean": -0.095683,
+    "hellaswag_n": 10042,
+    "final": true,
+    "val_s": 4.5,
+    "hellaswag_s": 1.4,
+    "accel_hours": 0.7615,
+    "wall_s": 812.3
+  },
+  "hellaswag_summary": {
+    "n_items": 10042,
+    "hellaswag_acc_norm": 0.281617,
+    "hellaswag_acc_norm_se": 0.004488,
+    "hellaswag_acc": 0.270962,
+    "hellaswag_acc_se": 0.004435,
+    "hellaswag_acc_tokennorm": 0.272854,
+    "hellaswag_margin_mean": -0.095683,
+    "by_split_type": {
+      "indomain": {
+        "n": 5001,
+        "acc_norm": 0.276145
+      },
+      "zeroshot": {
+        "n": 5041,
+        "acc_norm": 0.287046
+      }
+    }
+  },
+  "accel_hours_at_end": 0.7615,
+  "wall_s": 812.6
+}

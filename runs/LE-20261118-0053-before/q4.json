@@ -1,0 +1,45 @@
+{
+  "conversation": "q4.json",
+  "created": "2026-11-18T00:54:55+06:00",
+  "user_is": "Claude",
+  "model": {
+    "ckpt": "runs/L3-20261115-1104-main/ckpt/step_11676.npz",
+    "kind": "Level 3 base (untuned)"
+  },
+  "model_sha": "579f67bcd76fd69e",
+  "hardware": "this PC's CPU (Ryzen 7 5700X), 16 threads, float32",
+  "note": "unedited: every turn as typed and as generated, in order",
+  "turns": [
+    {
+      "role": "user",
+      "t": "2026-11-18T00:54:56+06:00",
+      "who": "Claude",
+      "text": "Can you give me three tips for sleeping better?"
+    },
+    {
+      "role": "assistant",
+      "t": "2026-11-18T00:55:14+06:00",
+      "text": "linde, können, görte\nThe BEST way to reduce the risk of cancer is to quit smoking and stop drinking. This means quitting drinking at least one or two days a week.\nCancer is a disease that starts when cells in your body grow out of control. When these cells multiply uncontrollably, they form a lump or mass called a tumour.\nTumours can spread from one part of the body to another. If cancer spreads from one part of the body to another, it’s called metastasis.\nCancer is not contagious. It only affects parts of your body. For this reason, it’s important to have regular check-ups with your GP or health visitor.\nSmoking is a major risk factor for lung cancer and many other cancers. People who smoke are more likely to get lung cancer than non-smokers.\nIf you want to reduce your chances of getting cancer, try to stop smoking if you’re able. You can find out more about how to quit on the NHS website.",
+      "new_tokens": 217,
+      "ended_turn": true,
+      "prompt_tokens": 14,
+      "context_dropped_turns": 0,
+      "seconds": 18.24,
+      "tokens_per_sec": 11.9,
+      "seed": 1000,
+      "sampling": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "rep_penalty": 1.1,
+        "rep_window": 64,
+        "max_new_tokens": 300,
+        "banned": [
+          "<|endoftext|>",
+          "<|user|>",
+          "<|assistant|>"
+        ],
+        "stop": "<|end|>"
+      }
+    }
+  ]
+}

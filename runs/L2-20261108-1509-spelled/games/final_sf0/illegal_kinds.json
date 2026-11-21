@@ -1,0 +1,368 @@
+{
+  "moves": 1189,
+  "illegal": 27,
+  "kinds": {
+    "king_in_check": 3,
+    "no_such_move": 19,
+    "ambiguous": 3,
+    "not_a_move": 2
+  },
+  "examples": [
+    {
+      "game": 0,
+      "ply": 98,
+      "fen": "8/8/2k3p1/4p1Pp/1Pn1P2P/p1P1P3/3rK3/R7 w - - 0 50",
+      "first_attempt": "Kxd2",
+      "tries": [
+        "Kxd2",
+        "Kxd2",
+        "Kxd2",
+        "Kf3"
+      ],
+      "played": "Kf3",
+      "kind": "king_in_check"
+    },
+    {
+      "game": 1,
+      "ply": 58,
+      "fen": "r1r5/4Rppk/4b3/4p2p/p1P1P3/1P6/P5PP/5RK1 w - - 6 30",
+      "first_attempt": "Rxe5",
+      "tries": [
+        "Rxe5",
+        "Rxe5",
+        "Rf3"
+      ],
+      "played": "Rf3",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 1,
+      "ply": 64,
+      "fen": "r7/4Rppk/4b3/4p3/p1P1P2p/1P3R1P/P2r2PK/8 w - - 3 33",
+      "first_attempt": "Rxe5",
+      "tries": [
+        "Rxe5",
+        "Rxe5",
+        "Rfxf7"
+      ],
+      "played": "Rfxf7",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 5,
+      "ply": 82,
+      "fen": "1k6/6R1/p4rp1/8/1P5P/P3P2P/1P3q1K/8 w - - 1 42",
+      "first_attempt": "Rg2",
+      "tries": [
+        "Rg2",
+        "Kh1"
+      ],
+      "played": "Kh1",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 5,
+      "ply": 84,
+      "fen": "1k6/6R1/p4rp1/8/1P5P/P3P2P/1P6/5q1K w - - 3 43",
+      "first_attempt": "Rg1",
+      "tries": [
+        "Rg1",
+        "Rg1",
+        "Kh2"
+      ],
+      "played": "Kh2",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 6,
+      "ply": 52,
+      "fen": "3r2k1/2p3pp/p4r2/np1P4/Bb1N4/1P5P/P4PP1/3R1RK1 w - - 0 27",
+      "first_attempt": "Bc2",
+      "tries": [
+        "Bc2",
+        "Bc2",
+        "Rfe1"
+      ],
+      "played": "Rfe1",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 8,
+      "ply": 44,
+      "fen": "3r4/1pk3pp/p1p5/4NB2/3P4/5Q2/PPP2PPP/R3R1K1 w - - 1 23",
+      "first_attempt": "Qf7+",
+      "tries": [
+        "Qf7+",
+        "Be6"
+      ],
+      "played": "Be6",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 9,
+      "ply": 106,
+      "fen": "1QQ5/5k2/8/7R/8/2P3P1/5P2/6K1 w - - 1 54",
+      "first_attempt": "Qb7+",
+      "tries": [
+        "Qb7+",
+        "Qe8+"
+      ],
+      "played": "Qe8+",
+      "kind": "ambiguous"
+    },
+    {
+      "game": 11,
+      "ply": 25,
+      "fen": "r2q1rk1/ppp2ppp/1b1p1n2/3Np1B1/1PB1P3/P2P1b1P/2P2PP1/R4RK1 b - - 1 13",
+      "first_attempt": "Bxd5",
+      "tries": [
+        "Bxd5",
+        "Bxd5",
+        "h6"
+      ],
+      "played": "h6",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 13,
+      "ply": 89,
+      "fen": "8/5pk1/2p4p/8/8/1R3pr1/KP6/7R b - - 0 45",
+      "first_attempt": "Rxb3",
+      "tries": [
+        "Rxb3",
+        "1-0",
+        "Rxb3+",
+        "Rxb3",
+        "1-0"
+      ],
+      "played": null,
+      "kind": "no_such_move"
+    },
+    {
+      "game": 14,
+      "ply": 43,
+      "fen": "r4rk1/pp1b2pn/2p3Np/1PP2pqP/2BPp1n1/PQ2P3/5PP1/2R1K2R b K - 0 22",
+      "first_attempt": "Kh8",
+      "tries": [
+        "Kh8",
+        "Kh8",
+        "Rf7"
+      ],
+      "played": "Rf7",
+      "kind": "king_in_check"
+    },
+    {
+      "game": 15,
+      "ply": 59,
+      "fen": "4r1k1/pp3pp1/3N1n1p/2P5/1P6/P6Q/5P1P/3R1K2 b - - 0 30",
+      "first_attempt": "1-0",
+      "tries": [
+        "1-0",
+        "1-0",
+        "1-0",
+        "1-0",
+        "1-0"
+      ],
+      "played": null,
+      "kind": "not_a_move"
+    },
+    {
+      "game": 16,
+      "ply": 93,
+      "fen": "6k1/4K1p1/qp3p1p/2p5/4b3/1q6/8/8 b - - 7 47",
+      "first_attempt": "Qc6",
+      "tries": [
+        "Qc6",
+        "Qc6",
+        "Qc6",
+        "Qc6",
+        "Qa7"
+      ],
+      "played": "Qa7+",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 16,
+      "ply": 103,
+      "fen": "q5k1/2K3p1/5p1p/2p2b2/1p6/1q6/8/8 b - - 1 52",
+      "first_attempt": "b3",
+      "tries": [
+        "b3",
+        "b3",
+        "b3",
+        "b3",
+        "Qhb7+"
+      ],
+      "played": null,
+      "kind": "no_such_move"
+    },
+    {
+      "game": 17,
+      "ply": 83,
+      "fen": "8/1p4R1/p1p4p/P2p3P/1Pb2k2/2K5/8/8 b - - 0 42",
+      "first_attempt": "Kg5",
+      "tries": [
+        "Kg5",
+        "Kf5"
+      ],
+      "played": "Kf5",
+      "kind": "king_in_check"
+    },
+    {
+      "game": 17,
+      "ply": 109,
+      "fen": "8/8/P1p5/1p1pK3/2b5/8/8/7k b - - 0 55",
+      "first_attempt": "Bxa6",
+      "tries": [
+        "Bxa6",
+        "Bxa6",
+        "b4"
+      ],
+      "played": "b4",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 21,
+      "ply": 51,
+      "fen": "5r1k/1p4pp/3p3r/Q1pBnb1q/2Pp4/1P3PB1/6PP/R4RK1 b - - 0 26",
+      "first_attempt": "Rf6",
+      "tries": [
+        "Rf6",
+        "Bc8"
+      ],
+      "played": "Bc8",
+      "kind": "ambiguous"
+    },
+    {
+      "game": 21,
+      "ply": 53,
+      "fen": "2b2r1k/1pQ3pp/3p3r/2pBn2q/2Pp4/1P3PB1/6PP/R4RK1 b - - 2 27",
+      "first_attempt": "Rf6",
+      "tries": [
+        "Rf6",
+        "Nd3"
+      ],
+      "played": "Nd3",
+      "kind": "ambiguous"
+    },
+    {
+      "game": 22,
+      "ply": 76,
+      "fen": "8/4kP2/4B2p/7N/8/1P5P/1P2N1P1/2K1R3 w - - 0 39",
+      "first_attempt": "8=N+",
+      "tries": [
+        "8=N+",
+        "f8=Q+"
+      ],
+      "played": "f8=Q+",
+      "kind": "not_a_move"
+    },
+    {
+      "game": 24,
+      "ply": 42,
+      "fen": "r5k1/6pp/pr6/1p2N3/8/8/PBP1BPPP/R2NR1K1 w - - 1 22",
+      "first_attempt": "Nxb6",
+      "tries": [
+        "Nxb6",
+        "Nxb6",
+        "Nxb6",
+        "Nxb6",
+        "Bf3"
+      ],
+      "played": "Bf3",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 25,
+      "ply": 55,
+      "fen": "6k1/pp3ppp/2p5/4p3/4n3/P5P1/3r3r/R5K1 b - - 1 28",
+      "first_attempt": "Rbg2+",
+      "tries": [
+        "Rbg2+",
+        "Nxg3"
+      ],
+      "played": "Nxg3",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 29,
+      "ply": 19,
+      "fen": "r1b2rk1/p4ppp/2n2n2/qpNpp3/8/2P1P3/PP1NBPPP/R1BQK2R b KQ - 0 10",
+      "first_attempt": "Qxc5",
+      "tries": [
+        "Qxc5",
+        "Qxc5",
+        "1-0",
+        "Qxc5",
+        "b4"
+      ],
+      "played": "b4",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 29,
+      "ply": 27,
+      "fen": "r1b2rk1/p4ppp/1qn2n2/2Npp3/8/PN2P3/1B2BPPP/R2Q1RK1 b - - 0 14",
+      "first_attempt": "Qxb2",
+      "tries": [
+        "Qxb2",
+        "Nd7"
+      ],
+      "played": "Nd7",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 29,
+      "ply": 45,
+      "fen": "r4rk1/p4ppp/2n5/3p4/7P/P3PpPb/2q2P2/4R1K1 b - - 2 23",
+      "first_attempt": "Qg2#",
+      "tries": [
+        "Qg2#",
+        "Rfe8"
+      ],
+      "played": "Rfe8",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 29,
+      "ply": 47,
+      "fen": "r3r1k1/p4ppp/2n5/3p4/6PP/P3Pp1b/2q2P2/4R1K1 b - - 0 24",
+      "first_attempt": "Qg2#",
+      "tries": [
+        "Qg2#",
+        "Rb8",
+        "Ra5#",
+        "Ne5"
+      ],
+      "played": "Ne5",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 29,
+      "ply": 53,
+      "fen": "r3r1k1/p4ppp/8/P2pn3/7P/4Pp1b/2q2P2/5RK1 b - - 0 27",
+      "first_attempt": "Qg2#",
+      "tries": [
+        "Qg2#",
+        "Qg2#",
+        "Qxf1+",
+        "Bxf1"
+      ],
+      "played": "Bxf1",
+      "kind": "no_such_move"
+    },
+    {
+      "game": 29,
+      "ply": 57,
+      "fen": "r3r1k1/p4ppp/8/P2pn3/7P/4Pp2/4qP2/6K1 b - - 2 29",
+      "first_attempt": "Qg2#",
+      "tries": [
+        "Qg2#",
+        "Qg2#",
+        "Qxf2+"
+      ],
+      "played": "Qxf2+",
+      "kind": "no_such_move"
+    }
+  ]
+}

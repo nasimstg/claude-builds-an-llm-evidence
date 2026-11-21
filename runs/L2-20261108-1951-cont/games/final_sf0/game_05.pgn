@@ -1,0 +1,13 @@
+[Event "EP04 Level 2 match vs Stockfish skill 0"]
+[Site "EP04 lab PC"]
+[Date "2026.11.08"]
+[Round "5"]
+[White "L2-20261108-1951-cont step 9918"]
+[Black "Stockfish 19 (skill 0, 0.1 s/move)"]
+[Result "1-0"]
+[Termination "checkmate"]
+[StockfishSkill "0"]
+[IllegalMoves "none"]
+
+1. e4 d6 2. d4 g6 3. Nc3 Bg7 4. Be3 a5 5. Qd2 Nd7 6. O-O-O Ngf6 7. f3 Rb8 8. g4 b5 9. Bxb5 h5 10. g5 Ng8 11. h4 e6 12. Nge2 Ne7 13. f4 O-O 14. Ng3 d5 15. f5 Nb6 16. f6 Bh8 17. fxe7 c6 18. exd8=Q Rxd8 19. Bxc6 Nc4 20. Qf2 Rd6 21. exd5 Rd7 22. dxe6 fxe6 23. Bxd7 Bxd7 24. Rhf1 Ba4 25. Nxa4 Be5 26. dxe5 Nxe5 27. Qf6 Ng4 28. Qxg6+ Kh8 29. Bd4+ e5 30. Bxe5+ Nxe5 31. Qh6+ Kg8 32. Nf5 Nd3+ 33. Rxd3 Rb4 34. Qg6+ Kh8 35. Qg7# 1-0
+

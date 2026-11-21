@@ -1,0 +1,10 @@
+{
+  "run_id": "LE-20261118-0201-rank",
+  "arm": "rank",
+  "steps": 695,
+  "tokens_seen": 22773760,
+  "wall_s": 8357.9,
+  "accel_hours": 2.3266,
+  "usd_spent": 0.0,
+  "ended": "2026-11-17T22:21:38+00:00"
+}

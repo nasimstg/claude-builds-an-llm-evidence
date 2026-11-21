@@ -1,0 +1,259 @@
+{
+  "run_id": "L2-20261108-1951-cont",
+  "level": 2,
+  "started": "2026-11-08T14:10:43+00:00",
+  "seed": 2027,
+  "code_hash": "7026dfd533066c87",
+  "args": {
+    "run_id": "L2-20261108-1951-cont",
+    "runs_dir": "/kaggle/working/runs",
+    "data_dir": "/kaggle/input/datasets/kaggle-user/ep04-chess-tok2",
+    "tokenizer": "/kaggle/input/datasets/kaggle-user/ep04-chess-tok2/tokenizer.json",
+    "pylib": "",
+    "seed": 2027,
+    "n_layer": 12,
+    "n_head": 8,
+    "d_model": 512,
+    "d_ff": 1408,
+    "block_size": 512,
+    "anatomy": true,
+    "micro_batch": 64,
+    "grad_accum": 1,
+    "loader": "epoch",
+    "max_tokens": 650000000,
+    "max_steps": 0,
+    "lr": 0.0005,
+    "min_lr_frac": 0.1,
+    "warmup": 300,
+    "wd": 0.1,
+    "beta2": 0.95,
+    "clip": 1.0,
+    "dtype": "fp16",
+    "compile": true,
+    "device": "",
+    "eval_every": 1000,
+    "val_tokens": 1048576,
+    "eval_batch": 64,
+    "legal_games": 300,
+    "final_legal_games": 2000,
+    "sample_seed": 42,
+    "sample_tokens": 200,
+    "n_ckpt": 12,
+    "n_embed": 8,
+    "log_every": 1,
+    "print_every": 100,
+    "latest_every_min": 15.0,
+    "time_limit_min": 150.0,
+    "max_nan": 5,
+    "session_start": 1794145875.7866411,
+    "quota_hours_before": 9.69,
+    "usd_spent": 0.0,
+    "hardware_note": "Kaggle GPU T4 x2, DDP over both",
+    "resume": "",
+    "init_from": "/kaggle/input/datasets/kaggle-user/ep04-chess-tok2/init_L2-20261108-1509-spelled_step_10681.pt",
+    "no_tee": true,
+    "note": "Level 2 continuation of L2-20261108-1509-spelled step 10681",
+    "crash_at_step": 0
+  },
+  "model": {
+    "vocab_size": 6257,
+    "vocab_pad": 6272,
+    "block_size": 512,
+    "n_layer": 12,
+    "n_head": 8,
+    "d_model": 512,
+    "d_ff": 1408,
+    "rope_base": 10000.0,
+    "clock": false,
+    "clock_weight": 0.1,
+    "anatomy": true,
+    "anatomy_rows": 108,
+    "anatomy_factors": 7
+  },
+  "params_total": 41814528,
+  "params_non_embedding": 38547968,
+  "params_anatomy": 55296,
+  "tokens_per_step": 65536,
+  "max_steps": 9918,
+  "planned_tokens": 649986048,
+  "dataset": {
+    "name": "Lichess open database, rated standard games (see meta)",
+    "data_dir": "/kaggle/input/datasets/kaggle-user/ep04-chess-tok2",
+    "shards": [
+      "train.bin",
+      "val.bin",
+      "test_games.jsonl"
+    ],
+    "meta": {
+      "source": "Lichess open database (database.lichess.org, CC0), standard rated games",
+      "months": [
+        "2017-02",
+        "2017-03"
+      ],
+      "per_month": {
+        "2017-02": {
+          "parsed_games": 7329502,
+          "kept": 2370354
+        },
+        "2017-03": {
+          "parsed_games": 8126311,
+          "kept": 2599961
+        }
+      },
+      "min_elo_both": 1700,
+      "filters": "parse_lichess.py: rated, standard start, base+40*inc >= 180 s, Termination Normal or Time forfeit, result known, 10-400 plies; prepare_chess.py: both Elo >= min_elo",
+      "format": "EOT then PGN movetext '1. e4 e5 2. Nf3 ... <result>' per game",
+      "splits": {
+        "train": {
+          "games": 9313916,
+          "tokens": 1060062649,
+          "plies": 692553767,
+          "new_months": {
+            "games": 4970315,
+            "tokens": 568218312,
+            "text_bytes": 2250443823,
+            "plies": 371257913,
+            "tokens_per_game": 114.32,
+            "plies_per_game": 74.7
+          },
+          "first_set": {
+            "games": 4343601,
+            "tokens": 491844338,
+            "text_bytes": 1947844714,
+            "plies": 321295854,
+            "bytes_per_token": 3.9956,
+            "tokens_per_game": 113.23,
+            "plies_per_game": 73.97
+          }
+        },
+        "val": {
+          "games": 20000,
+          "tokens": 2259962,
+          "text_bytes": 8949540,
+          "plies": 1476278,
+          "bytes_per_token": 3.9954,
+          "tokens_per_game": 113.0,
+          "plies_per_game": 73.81
+        },
+        "test": {
+          "games": 10000,
+          "plies": 733093
+        }
+      },
+      "tokenizer": {
+        "merges": 6000,
+        "vocab_size": 6257
+      },
+      "train_min_elo_quantiles": {
+        "0.1": 1725,
+        "0.5": 1844,
+        "0.9": 2080,
+        "0.99": 2327
+      },
+      "note": "Level 2 contingency set: train.bin = the new months' games (shuffled), then the first set's train.bin unchanged; val/test files and tokenizer are copies from data/chess/tok",
+      "first_set": {
+        "months": [
+          "2017-01",
+          "2016-06"
+        ],
+        "train": {
+          "games": 4343601,
+          "tokens": 491844338,
+          "text_bytes": 1947844714,
+          "plies": 321295854,
+          "bytes_per_token": 3.9956,
+          "tokens_per_game": 113.23,
+          "plies_per_game": 73.97
+        }
+      },
+      "dropped_identical_to_val_or_test": 681,
+      "init_ckpt": null
+    },
+    "train_windows": 2378930,
+    "val_windows": 5056,
+    "window_packing_seconds": 3.6
+  },
+  "tokenizer": {
+    "path": "/kaggle/input/datasets/kaggle-user/ep04-chess-tok2/tokenizer.json",
+    "vocab_size": 6257,
+    "merges": 6000
+  },
+  "referee": "python-chess 1.11.2 (legality judging only)",
+  "hardware": {
+    "device": "cuda:0",
+    "world_size": 2,
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "cuda": "13.0",
+    "gpus": [
+      "Tesla T4",
+      "Tesla T4"
+    ],
+    "cpu_count": 4,
+    "note": "Kaggle GPU T4 x2, DDP over both"
+  },
+  "schedules": {
+    "samples": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2000,
+      5000,
+      9918
+    ],
+    "ckpt": [
+      0,
+      50,
+      100,
+      200,
+      500,
+      1000,
+      2486,
+      3973,
+      5459,
+      6945,
+      8432,
+      9918
+    ],
+    "embed": [
+      0,
+      100,
+      200,
+      1000,
+      2486,
+      5459,
+      6945,
+      9918
+    ],
+    "eval_every": 1000
+  },
+  "fixed_prompts": [
+    "",
+    "e4 e5 Nf3 Nc6 Bb5",
+    "d4 Nf6 c4 e6",
+    "e4 e5 Qh5 Nc6 Bc4 Nf6",
+    "f3 e5 g4"
+  ],
+  "anatomy_factors": [
+    "kind",
+    "piece",
+    "dest",
+    "capture",
+    "check",
+    "promo",
+    "disamb"
+  ],
+  "accounting": {
+    "accel_hours": "Kaggle session wall-clock hours since the session started (the quota is charged per session hour, whatever the GPU count)",
+    "usd_spent": 0.0
+  }
+}

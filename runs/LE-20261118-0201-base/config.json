@@ -1,0 +1,301 @@
+{
+  "run_id": "LE-20261118-0201-base",
+  "level": "E (epilogue: chat)",
+  "started": "2026-11-17T20:02:34+00:00",
+  "seed": 1337,
+  "code_hash": "a8cda52eb2eed2f2",
+  "args": {
+    "run_id": "LE-20261118-0201-base",
+    "runs_dir": "/kaggle/working/runs",
+    "data_dir": "/kaggle/input/datasets/kaggle-user/ep04-chat-data",
+    "arm": "base",
+    "base_ckpt": "/kaggle/input/notebooks/kaggle-user/ep04-l3-main/runs/L3-20261115-1104-main/ckpt/step_11676.npz",
+    "tokenizer": "/kaggle/input/datasets/kaggle-user/ep04-l3-meta/tokenizer.json",
+    "hellaswag": "/kaggle/input/datasets/kaggle-user/ep04-l3-meta/hellaswag_val.jsonl",
+    "tiny": false,
+    "seed": 1337,
+    "lr": 5e-05,
+    "warmup": 20,
+    "min_lr_frac": 0.0,
+    "wd": 0.0,
+    "clip": 1.0,
+    "micro_batch": 2,
+    "grad_accum": 16,
+    "max_steps": 0,
+    "eval_every": 0,
+    "hs_points": "start,mid,end",
+    "hs_limit": 0,
+    "hs_rows": 64,
+    "eval_tokens": 16384,
+    "n_ckpt": 3,
+    "latest_every_min": 25.0,
+    "latest_every_steps": 0,
+    "time_limit_min": 270.0,
+    "dtype": "fp16",
+    "grad_ckpt": false,
+    "sample_tokens": 200,
+    "no_samples": false,
+    "sample_steps": "",
+    "oom_test_step": 0,
+    "resume": "",
+    "crash_at_step": 0,
+    "no_tee": true,
+    "session_start": 1794945722.752368,
+    "quota_hours_before": 0.79,
+    "usd_spent": 0.0,
+    "hardware_note": "Kaggle 2x T4, one run per GPU",
+    "device": "",
+    "threads": 0,
+    "note": "main A/B: base arm (best-ranked threads + Dolly, 3 passes)"
+  },
+  "model": {
+    "vocab_size": 32771,
+    "vocab_pad": 32832,
+    "block_size": 1024,
+    "n_layer": 24,
+    "d_model": 1024,
+    "n_head": 8,
+    "d_ff": 2816,
+    "rope_base": 10000.0
+  },
+  "params_total": 341957632,
+  "params_non_embedding": 308337664,
+  "start_from": "/kaggle/input/notebooks/kaggle-user/ep04-l3-main/runs/L3-20261115-1104-main/ckpt/step_11676.npz",
+  "arm": "base",
+  "tokens_per_step": 32768,
+  "max_steps": 414,
+  "windows_available": 13254,
+  "windows_used": 13248,
+  "planned_tokens": 13565952,
+  "data_meta": {
+    "window_tokens": 1024,
+    "weight_codes": [
+      0.0,
+      1.0,
+      0.5,
+      0.25,
+      0.125
+    ],
+    "epochs_base": 3,
+    "seed": 2026,
+    "sources": {
+      "oasst2_train": [
+        "train-00000-of-00001-88ba0162028a73fc.parquet",
+        "9638227b41b0a4fb"
+      ],
+      "oasst2_validation": [
+        "validation-00000-of-00001-1deeef95c3248fe0.parquet",
+        "fd46c63babc07569"
+      ],
+      "dolly": [
+        "databricks-dolly-15k.jsonl",
+        "2df9083338b4abd6"
+      ],
+      "tokenizer": [
+        "tokenizer.json",
+        "bc3533abdd573457"
+      ]
+    },
+    "oasst_train_messages_all": 128575,
+    "oasst_train_messages_en_kept": 57416,
+    "oasst_train_self_id_claude_messages": 1,
+    "oasst_train_self_id_claude_examples": [
+      "Thank you for the thoughtful follow up question. You raise a fair point that if the laws of thermodynamics fundamentally limit how much useful energy can be extracted or converted, then perpetual moti"
+    ],
+    "oasst_train_removed_with_subtrees": 1,
+    "oasst_train_other_ai_self_id_assistant": 241,
+    "oasst_train_trees": 5126,
+    "oasst_train_top_threads": 5029,
+    "oasst_train_top_threads_cut_to_fit": 239,
+    "oasst_train_top_threads_dropped_too_long": 96,
+    "oasst_train_top_assistant_turns": 7489,
+    "oasst_train_runnerup_examples": 26314,
+    "oasst_train_runnerup_by_sibling_place": {
+      "0": 5474,
+      "1": 11618,
+      "2": 8107,
+      "3": 1115
+    },
+    "oasst_train_runnerup_dropped_too_long": 1994,
+    "oasst_val_messages_all": 6599,
+    "oasst_val_messages_en_kept": 3013,
+    "oasst_val_self_id_claude_messages": 0,
+    "oasst_val_self_id_claude_examples": [],
+    "oasst_val_removed_with_subtrees": 0,
+    "oasst_val_other_ai_self_id_assistant": 12,
+    "oasst_val_trees": 275,
+    "oasst_val_top_threads": 269,
+    "oasst_val_top_threads_cut_to_fit": 15,
+    "oasst_val_top_threads_dropped_too_long": 6,
+    "oasst_val_top_assistant_turns": 409,
+    "oasst_val_runnerup_examples": 1373,
+    "oasst_val_runnerup_by_sibling_place": {
+      "0": 301,
+      "1": 623,
+      "2": 408,
+      "3": 41
+    },
+    "oasst_val_runnerup_dropped_too_long": 108,
+    "pref_sequences": 1640,
+    "pref_pairs": 1034,
+    "dolly_records": 15011,
+    "dolly_self_id_claude": 0,
+    "dolly_train": 14487,
+    "dolly_val": 296,
+    "dolly_dropped_too_long": 228,
+    "tokens": {
+      "oasst_top": 2045081,
+      "oasst_runnerup": 8920952,
+      "dolly_train": 2415111,
+      "oasst_val_top": 109244,
+      "dolly_val": 50000
+    },
+    "arm_base": {
+      "windows": 13254,
+      "windows_per_pass": [
+        4418,
+        4419,
+        4417
+      ],
+      "tokens": 13572096,
+      "fill": 0.6614,
+      "nonpad_tokens": 13380576,
+      "packing_efficiency": 0.9859,
+      "target_positions": 8811093,
+      "target_weight_sum": 8811093.0,
+      "oasst_tokens_per_pass": [
+        2045081,
+        2045081,
+        2045081
+      ],
+      "dolly_tokens_per_pass": 2415111,
+      "top_thread_passes": 3
+    },
+    "arm_rank": {
+      "windows": 22244,
+      "windows_per_pass": [
+        7408,
+        7421,
+        7415
+      ],
+      "tokens": 22777856,
+      "fill": 0.5994,
+      "nonpad_tokens": 22301528,
+      "packing_efficiency": 0.9791,
+      "target_positions": 13316323,
+      "target_weight_sum": 11215198.0,
+      "oasst_tokens_per_pass": [
+        5013803,
+        5025286,
+        5017106
+      ],
+      "dolly_tokens_per_pass": 2415111,
+      "top_thread_passes": 3,
+      "runnerup_passes": 1
+    }
+  },
+  "optimizer": {
+    "name": "AdamW",
+    "betas": [
+      0.9,
+      0.95
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0.0,
+    "clip": 1.0
+  },
+  "schedule": {
+    "kind": "linear warmup, then linear decay to min_lr_frac * lr",
+    "peak_lr": 5e-05,
+    "warmup": 20,
+    "min_lr_frac": 0.0
+  },
+  "precision": "fp16 autocast + loss scaling, fp32 weights and residual stream",
+  "loss": "sum over target positions of weight x nll / number of target positions in the step",
+  "hardware": {
+    "device": "cuda",
+    "gpu": "Tesla T4",
+    "platform": "Linux-6.18.55+-x86_64-with-glibc2.39",
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130",
+    "cpu_count": 4,
+    "note": "Kaggle 2x T4, one run per GPU"
+  },
+  "schedules": {
+    "eval": [
+      0,
+      34,
+      68,
+      102,
+      136,
+      170,
+      204,
+      238,
+      272,
+      306,
+      340,
+      374,
+      408,
+      414
+    ],
+    "hellaswag": [
+      0,
+      204,
+      414
+    ],
+    "samples": [
+      0,
+      1,
+      2,
+      5,
+      10,
+      20,
+      50,
+      100,
+      200,
+      414
+    ],
+    "ckpt": [
+      20,
+      91,
+      413
+    ]
+  },
+  "eval_sets": {
+    "val_oasst_sequences": 269,
+    "val_dolly_sequences": 296,
+    "pref_sequences": 1640,
+    "pref_pairs": 1034,
+    "hellaswag_items": 10042
+  },
+  "sampling": {
+    "prompts": [
+      "Once upon a time",
+      "The little dog was sad because",
+      "The capital of France is",
+      "To make a cake, you need",
+      "1, 2, 3, 4,",
+      "Hi! Who are you?",
+      "What is the capital of France?",
+      "Can you give me three tips for sleeping better?",
+      "Write a short story about a dog who is afraid of the rain."
+    ],
+    "format": "each prompt is one user turn; the model writes after <|assistant|>",
+    "modes": [
+      "greedy",
+      "T=0.8 (no top-p, no repetition penalty)"
+    ],
+    "seed": 1234,
+    "max_new_tokens": 200,
+    "stops_at": "<|end|>",
+    "never_sampled": [
+      "<|endoftext|>",
+      "<|user|>",
+      "<|assistant|>"
+    ]
+  },
+  "accounting": {
+    "accel_hours": "Kaggle session wall-clock hours since the session started (the quota is charged per session hour, whatever the GPU count)",
+    "usd_spent": 0.0
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "rule": "largest of 342M / 239M / 162M whose budget at the measured speed (scaled by FLOPs per token) reaches 15 tokens per parameter (NOTEBOOK 2026-11-10 21:37)",
+  "budget_min": 470.0,
+  "min_tokens_per_param": 15,
+  "measured_size": "342m",
+  "speed_records": [
+    190427,
+    219548,
+    219555,
+    219556,
+    219559,
+    219560,
+    219563,
+    219568,
+    219568,
+    219569,
+    219569,
+    219569,
+    219569,
+    219569,
+    219570,
+    219571,
+    219573,
+    219573,
+    219574,
+    219574,
+    219575,
+    219575,
+    219576
+  ],
+  "tokens_per_step": 524288,
+  "table": [
+    {
+      "size": "342m",
+      "params": 341900000.0,
+      "est_tokens_per_sec": 219569,
+      "est_tokens": 6191845800,
+      "tokens_per_param": 18.11,
+      "meets_rule": true
+    },
+    {
+      "size": "239m",
+      "params": 239100000.0,
+      "est_tokens_per_sec": 315865,
+      "est_tokens": 8907384576,
+      "tokens_per_param": 37.25,
+      "meets_rule": true
+    },
+    {
+      "size": "162m",
+      "params": 162000000.0,
+      "est_tokens_per_sec": 470685,
+      "est_tokens": 13273310963,
+      "tokens_per_param": 81.93,
+      "meets_rule": true
+    }
+  ],
+  "median_tokens_per_sec": 219569,
+  "chosen": "342m",
+  "chosen_params": 341900000.0,
+  "plan_steps": 11810,
+  "eval_every": 393,
+  "decided_at_session_s": 529.5
+}
